@@ -1,1 +1,1 @@
-# stdudy_web
+# study_web
