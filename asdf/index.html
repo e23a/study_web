@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Liquidapsive (Liqui-dap-sive)</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <head profile="http://www.w3.org/2005/10/profile"></head>
+
+    <!-- <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css"> -->
+
+    <script type="text/javascript" src="/asdf/js/main.js"></script>
+    <link href="/asdf/css/main.css" rel="stylesheet" type="text/css"> 
+
+<!-- import CSS -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+
+</head>
+
+<body class="adaptive">
+    <div id="page_wrapper">
+        <header>
+            <div id="header_inner">
+                <h1 id="header_adaptive">Adaptive</h1>
+                <h1 id="header_liquid">Liquid</h1>
+                <h1 id="header_responsive">Responsive</h1>
+                <h1 id="header_static">Static</h1>
+                <select>
+                    <option value="adaptive">Adaptive</option>
+                    <option value="liquid">Liquid</option>
+                    <option value="responsive" selected="selected">Responsive</option>
+                    <option value="static">Static</option>
+                </select>
+            </div>
+        </header>
+        <div id="content_wrapper">
+            <menu>
+                <div id="menu_inner">
+                    <ul class="menu_1">
+                        <li class="menu_1">
+                            <a href="#" class="menu_1" title="Dummy placeholder link. This doesn't go anywhere.">Menu
+                                1</a>
+                            <ul class="menu_2">
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 1 a</a>
+                                </li>
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 1 b</a>
+                                </li>
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 1 c</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_1">
+                            <a href="#" class="menu_1" title="Dummy placeholder link. This doesn't go anywhere.">Menu
+                                2</a>
+                            <ul class="menu_2">
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 2 a</a>
+                                </li>
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 2 b</a>
+                                </li>
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 2 c</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_1">
+                            <a href="#" class="menu_1" title="Dummy placeholder link. This doesn't go anywhere.">Menu
+                                3</a>
+                            <ul class="menu_2">
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 3 a</a>
+                                </li>
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 3 b</a>
+                                </li>
+                                <li class="menu_2">
+                                    <a href="#" class="menu_2"
+                                        title="Dummy placeholder link. This doesn't go anywhere.">Menu 3 c</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </menu>
+            <div id="article_aside_wrapper">
+                <article>
+                    <div id="article_inner">
+                        <div id="intro">
+                            <h1>How To Use</h1>
+                            <p>
+                                Ever wondered what the difference between Adaptive, Responsive, Static and Liquid sites
+                                is? Had someone try and explain it only to be left more confused?
+                            </p>
+                            <p>
+                                Pick a flavor from the drop down on the top of the page then drag your window narrower
+                                and wider, taller and shorter. It will make much more sense when you see for yourself
+                                how the approach works.
+                            </p>
+                        </div>
+                        <div id="overview">
+                            <img src="/asdf/img/layout_3.gif" alt="Single Column Layout" id="layout_1" />
+                            <img src="/asdf/img/layout_3.gif" alt="Two Column Layout" id="layout_2" />
+                            <img src="/asdf/img/layout_3.gif" alt="Three Column Layout" id="layout_3" />
+                            <h1 class="overview_adaptive">Adaptive</h1>
+                            <p class="overview_adaptive">
+                                Adaptive is characterized by having defined layouts for different resolutions. Within
+                                each layout, resizing the window does not change the layout.
+                            </p>
+                            <p class="overview_adaptive">
+                                You can think of Adaptive as a series of <a href="#" class="mode" rel="static"
+                                    title="Change to Static">Static</a> layouts.
+                            </p>
+                            <h1 class="overview_liquid">Liquid</h1>
+                            <p class="overview_liquid">
+                                Liquid (also called "Fluid") is characterized by scaling the width of parts of the
+                                design relative to the window. It tends to fail when the window is much smaller or much
+                                larger than it was originally designed for.
+                            </p>
+                            <h1 class="overview_responsive">Responsive</h1>
+                            <p class="overview_responsive">
+                                Responsive is characterized by having defined layouts for different resolutions. Within
+                                each layout, the design is liquid and resizes the width of elements relative to the
+                                changing window size.
+                            </p>
+                            <p class="overview_responsive">
+                                You can think of Responsive as a series of <a href="#" class="mode" rel="liquid"
+                                    title="Change to Liquid">Liquid</a> layouts.
+                            </p>
+                            <h1 class="overview_static">Static</h1>
+                            <p class="overview_static">
+                                Static layouts are the traditional web: one design that sits in the center of the page
+                                and requires horizontal scrolling if the window is too small for it. M dot sites are the
+                                traditional answer to this, providing a wholly separate site for a lower resolution -
+                                and all the work of creating a separate site.
+                            </p>
+                        </div>
+                        <!-- Start: Single Block -->
+                        <div class="block">
+                            <div class="block_inner">
+                                <img src="/asdf/img/photo.jpg" />
+                                <div class="block_content">
+                                    <h3>Title</h3>
+                                    <p class="meta">Month dd, yyyy</p>
+                                    <p class="summary">
+                                        Summary summary summary summary summary summary
+                                    </p>
+                                    <p class="main">
+                                        Content content content content content content content content content content
+                                        content content content content content content
+                                    </p>
+                                    <a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End: Single Block -->
+                    </div>
+                </article>
+                <aside>
+                    <div id="aside_inner">
+                        <!-- Start: Single Block -->
+                        <div class="block">
+                            <div class="block_inner">
+                                <img src="/asdf/img/photo.jpg" />
+                                <div class="block_content">
+                                    <h3>Title</h3>
+                                    <p class="meta">Month dd, yyyy</p>
+                                    <p class="summary">
+                                        Summary summary summary summary summary summary
+                                    </p>
+                                    <p class="main">
+                                        Content content content content content content content content content content
+                                        content content content content content content
+                                    </p>
+                                    <a href="#" title="Dummy placeholder link. This doesn't go anywhere.">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End: Single Block -->
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <footer>
+            <div id="footer_inner">
+                <p>Built by <a href="http://www.knulab.com" title="KNULAB">KNULAB</a> for <a href="http://knulab.com"
+                        title="Kangwon National University">KANGWON NATIONAL UNIVERSITY</a>
+                <p>&copy; Copyright <a href="http://knulab.com" title="KNULAB">KNULAB</a></p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
